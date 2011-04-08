@@ -166,3 +166,21 @@
   font-weight: bold;
   margin-right: 2em;
 }
+
+/* START:inline */
+#store .entry form, #store .entry form div {
+  display: inline;
+}
+/* END:inline */
+
+/* START:image_link */
+#store .entry .image_link {
+    border: 0;
+}
+/* END:image_link */
+
+/* START:image_link */
+#store .count_session {
+    margin-left: 0;
+}
+/* END:image_link */

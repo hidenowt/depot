@@ -1,6 +1,6 @@
 module ApplicationHelper
   def current_time
-    "#{Time.zone.now.strftime("%m/%d/%Y - %H:%m")}"
+    "#{Time.zone.now.strftime("%m/%d/%Y - %H:%M")}"
   end
   
   def dolar_to_currency(item)
